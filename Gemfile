@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 ruby "2.1.2"
+
+gem 'rspec-rails'
+gem 'capybara'
+gem 'selenium-webdriver'
+
 gem 'dotenv-rails', :groups => [:development, :test]
 gem 'dotenv-rails'
 gem 'twilio-ruby'
